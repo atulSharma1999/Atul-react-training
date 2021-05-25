@@ -9,8 +9,8 @@ function greetPerson(name) {
     console.log(greet);
 }
 greetPerson("Chandler");
-var a = 1;
-var b = 2;
+var a = 10;
+var b = 20;
 if (a === 1) {
     var a = 10;
     var b_1 = 20;
