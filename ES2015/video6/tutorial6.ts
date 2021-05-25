@@ -14,8 +14,8 @@ let b=20;
 if(a === 1){
     var a=10;
     let b = 20;
-    console.log(a);
-    console.log(b);
+    console.log(a); //10
+    console.log(b); //20
 }
 console.log(a);
 console.log(b);
