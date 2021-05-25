@@ -1,0 +1,10 @@
+var getRegvalue = function(){
+    return 10;
+}
+console.log(getRegvalue());
+
+const getArrowvalue = (m,bonus) => 10*m+bonus;
+
+console.log(getArrowvalue(5,10));
+
+console.log(typeof getArrowvalue)
