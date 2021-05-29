@@ -5,7 +5,7 @@ console.log(props)
 return ( 
   <div>
     <h1>
-       Hello {props.name} the {props.heroname}
+        Hello {props.name} the {props.heroName}
     </h1>
     {props.children}
   </div>
