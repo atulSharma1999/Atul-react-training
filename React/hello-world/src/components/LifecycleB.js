@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import LifecycleB from './LifecycleB'
 
-class LifecycleA extends Component {
+class LifecycleB extends Component {
     constructor(props) {
         super(props)
     
