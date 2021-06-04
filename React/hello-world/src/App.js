@@ -20,12 +20,16 @@ import FragmentDemo from './components/FragmentDemo';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import ClassCounter from './components/ClassCounter';
+import HookCounterTwo from './components/HookCounterTwo';
 
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <RefsDemo /> 
+      <HookCounterTwo /> 
+      { /* <ClassCounter /> */}
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <PureComp /> */}
       {/* <FragmentDemo /> */}
